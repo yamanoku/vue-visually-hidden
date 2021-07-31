@@ -1,0 +1,28 @@
+{
+  "name": "vue-visually-hidden",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanoku/vue-visually-hidden.git"
+  },
+  "author": "yamanoku",
+  "bugs": {
+    "url": "https://github.com/yamanoku/vue-visually-hidden/issues"
+  },
+  "homepage": "https://github.com/yamanoku/vue-visually-hidden#readme",
+  "dependencies": {
+    "vue": "3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "1.3.0",
+    "@vue/compiler-sfc": "3.1.5",
+    "typescript": "4.3.5",
+    "vite": "2.4.4",
+    "vue-tsc": "0.2.2"
+  }
+}
