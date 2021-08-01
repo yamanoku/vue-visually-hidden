@@ -3,7 +3,7 @@
     <VisuallyHidden>
       example
     </VisuallyHidden>
-    <VisuallyHidden :isFocus="true">
+    <VisuallyHidden :isFocusable="true">
       <a href="http://example.com">example</a>
     </VisuallyHidden>
   </div>

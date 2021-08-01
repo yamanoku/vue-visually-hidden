@@ -9,13 +9,13 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "VisuallyHidden",
   props: {
-    isFocus: {
+    isFocusable: {
       type: Boolean,
       default: false,
     },
   },
   setup(props) {
-    const focusedClass = props.isFocus
+    const focusedClass = props.isFocusable
       ? "visually-hidden-focusable"
       : "visually-hidden";
     return {
