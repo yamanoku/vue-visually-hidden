@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import VisuallyHidden from "./VisuallyHidden.vue";
+import VisuallyHidden from "./components/VisuallyHidden.vue";
 export default defineComponent({
   name: "App",
   components: {
