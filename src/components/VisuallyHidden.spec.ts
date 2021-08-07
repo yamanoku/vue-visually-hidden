@@ -1,5 +1,8 @@
 import { mount } from '@vue/test-utils'
+import {axe, toHaveNoViolations} from 'jest-axe'
 import VisuallyHidden from './VisuallyHidden.vue';
+import App from '../App.vue';
+expect.extend(toHaveNoViolations)
 
 describe('check VisuallyHidden Class', () => {
   test('check Default Class', () => {
@@ -30,5 +33,15 @@ describe('check Focusable Element', () => {
     })
     const elAnchor = wrapper.find('a').element
     elAnchor.focus()
+  })
+})
+
+describe("<VisuallyHidden /> with axe", () => {
+  it('should not have ARIA violations', async () => {
+    const wrapper = mount(App, {
+      attachTo: document.body
+    })
+    const results = await axe(wrapper.element)
+    expect(results).toHaveNoViolations()
   })
 })

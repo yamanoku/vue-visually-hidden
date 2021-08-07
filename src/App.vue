@@ -6,6 +6,10 @@
     <VisuallyHidden :isFocusable="true">
       <a href="http://example.com">example</a>
     </VisuallyHidden>
+    <button type="button">
+      <VisuallyHidden>Click Me</VisuallyHidden>
+      <span aria-hidden="true">👏</span>
+    </button>
   </div>
 </template>
 
