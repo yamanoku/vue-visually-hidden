@@ -8,7 +8,6 @@
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "isolatedModules": true,
     "noImplicitAny": true,
     "jsx": "preserve",
     "importHelpers": true,
