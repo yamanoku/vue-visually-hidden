@@ -22,8 +22,11 @@ yarn add -D vue-visually-hidden
 ```html:App.vue
 <template>
   <div>
+    <VisuallyHidden>
+      Visually Hidden Text
+    </VisuallyHidden>
     <VisuallyHidden :isFocusable="true">
-      <a href="#">aaa</a>
+      <a href="http://example.com">example</a>
     </VisuallyHidden>
   </div>
 </template>
