@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "test": "jest src"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
