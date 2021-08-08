@@ -1,7 +1,7 @@
 {
   "name": "vue-visually-hidden",
   "description": "Vue.js visually hidden component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
