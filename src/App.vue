@@ -1,16 +1,20 @@
 <template>
-  <div>
+  <main>
+    <h1>Vue Visually Hidden Demo Page</h1>
+    <h2>VisuallyHidden - Default</h2>
     <VisuallyHidden>
       example
     </VisuallyHidden>
+    <h2>VisuallyHidden - Focusable</h2>
     <VisuallyHidden :isFocusable="true">
       <a href="http://example.com">example</a>
     </VisuallyHidden>
+    <h2>VisuallyHidden Button Example</h2>
     <button type="button">
       <VisuallyHidden>Click Me</VisuallyHidden>
       <span aria-hidden="true">👏</span>
     </button>
-  </div>
+  </main>
 </template>
 
 <script lang="ts">
