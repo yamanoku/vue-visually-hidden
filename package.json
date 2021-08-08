@@ -7,6 +7,21 @@
     "serve": "vite preview",
     "test": "jest"
   },
+  "types": "src/index.ts",
+  "module": "./dist/vue-visually-hidden.es.js",
+  "main": "./dist/vue-visually-hidden.umd.js",
+  "files": [
+    "dist",
+    "src/index.ts",
+    "src/components/*"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/vue-visually-hidden.es.js",
+      "require": "./dist/vue-visually-hidden.umd.js"
+    },
+    "./style": "./dist/style.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yamanoku/vue-visually-hidden.git"
@@ -16,6 +31,10 @@
     "url": "https://github.com/yamanoku/vue-visually-hidden/issues"
   },
   "homepage": "https://github.com/yamanoku/vue-visually-hidden#readme",
+  "peerDependencies": {
+    "vue": "3.0.7",
+    "@vue/compiler-sfc": "3.0.7"
+  },
   "dependencies": {
     "vue": "3.0.7"
   },
