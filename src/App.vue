@@ -2,15 +2,19 @@
   <main>
     <h1>Vue Visually Hidden Demo Page</h1>
     <h2>VisuallyHidden - Default</h2>
-    <VisuallyHidden>
-      example
-    </VisuallyHidden>
+    <div class="example-background">
+      <VisuallyHidden>
+        example text
+      </VisuallyHidden>
+    </div>
     <h2>VisuallyHidden - Focusable</h2>
-    <VisuallyHidden :isFocusable="true">
-      <a href="http://example.com">example</a>
-    </VisuallyHidden>
+    <div class="example-background">
+      <VisuallyHidden :isFocusable="true">
+        <a href="http://example.com">example</a>
+      </VisuallyHidden>
+    </div>
     <h2>VisuallyHidden Button Example</h2>
-    <button type="button">
+    <button type="button" class="example-button">
       <VisuallyHidden>Click Me</VisuallyHidden>
       <span aria-hidden="true">👏</span>
     </button>
@@ -27,3 +31,15 @@ export default defineComponent({
   }
 });
 </script>
+
+<style scoped>
+.example-background {
+  background-color: var(--y-white-low);
+  padding: var(--y-rhythm-3);
+  border-radius: 8px;
+}
+
+.example-button {
+  font-size: 36px;
+}
+</style>
