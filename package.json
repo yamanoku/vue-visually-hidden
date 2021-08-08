@@ -1,5 +1,6 @@
 {
   "name": "vue-visually-hidden",
+  "description": "Vue.js visually hidden component",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
