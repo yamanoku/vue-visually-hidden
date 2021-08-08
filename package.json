@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview",
+    "demo:dev": "cd demo && vite",
+    "demo:build": "cd demo && vite build",
     "test": "jest"
   },
   "types": "src/index.ts",
