@@ -79,7 +79,7 @@ import 'vue-visually-hidden/dist/style.css'
 
 ### style setting (vite)
 
-```js:vite.config.js
+```js:main.js
 import 'vue-visually-hidden/style'
 ```
 
@@ -114,7 +114,7 @@ If you get the error `Invalid VNode type: Symbol(Fragment) (symbol)`, try settin
 
 See: https://github.com/vuejs/vue-next/issues/2064
 
-### vue-cli
+### vue.config.js
 
 ```js:vue.config.js
 const path = require('path')
@@ -131,7 +131,7 @@ module.exports = {
 }
 ```
 
-### vite
+### vite.config.js
 
 ```js:vite.config.js
 import { defineConfig } from 'vite'
