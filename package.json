@@ -2,6 +2,19 @@
   "name": "vue-visually-hidden",
   "description": "Vue.js visually hidden component",
   "version": "0.0.3",
+  "keywords": [
+    "vue",
+    "vue.js",
+    "vue3",
+    "component",
+    "accessible",
+    "accessibility",
+    "a11y",
+    "visually hidden",
+    "visually hidden component",
+    "sr-only",
+    "screenreader"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -58,5 +71,6 @@
     "vite": "2.4.4",
     "vue-jest": "5.0.0-alpha.8",
     "vue-tsc": "0.2.2"
-  }
+  },
+  "license": "MIT"
 }
