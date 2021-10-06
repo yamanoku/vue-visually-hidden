@@ -54,8 +54,8 @@
     "vue": "3.2.19"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
-    "@babel/preset-env": "7.15.6",
+    "@babel/core": "7.15.8",
+    "@babel/preset-env": "7.15.8",
     "@testing-library/jest-dom": "5.14.1",
     "@types/jest": "27.0.2",
     "@types/jest-axe": "3.5.3",
