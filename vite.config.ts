@@ -14,7 +14,7 @@ export default defineConfig({
         name: 'vue-visually-hidden'
       },
       rollupOptions: {
-        external: ['vue'],
+        external: ['vue', 'vue-demi'],
         output: {
           globals: {
             vue: 'Vue'

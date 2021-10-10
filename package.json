@@ -51,7 +51,8 @@
     "@vue/compiler-sfc": "3.2.20"
   },
   "dependencies": {
-    "vue": "3.2.20"
+    "vue": "3.2.20",
+    "vue-demi": "0.11.4"
   },
   "devDependencies": {
     "@babel/core": "7.15.8",
