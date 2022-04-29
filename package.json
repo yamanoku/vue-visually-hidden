@@ -60,8 +60,8 @@
     "vue-demi": "0.12.5"
   },
   "devDependencies": {
-    "@babel/core": "7.17.9",
-    "@babel/preset-env": "7.16.11",
+    "@babel/core": "7.17.10",
+    "@babel/preset-env": "7.17.10",
     "@testing-library/jest-dom": "5.16.4",
     "@types/jest": "27.4.1",
     "@types/jest-axe": "3.5.3",
