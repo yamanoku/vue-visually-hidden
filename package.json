@@ -57,7 +57,7 @@
     }
   },
   "dependencies": {
-    "vue-demi": "0.12.5"
+    "vue-demi": "0.13.0"
   },
   "devDependencies": {
     "@babel/core": "7.18.2",
