@@ -63,7 +63,7 @@
     "@babel/core": "7.18.2",
     "@babel/preset-env": "7.18.2",
     "@testing-library/jest-dom": "5.16.4",
-    "@types/jest": "27.5.1",
+    "@types/jest": "27.5.2",
     "@types/jest-axe": "3.5.3",
     "@vitejs/plugin-vue": "2.3.3",
     "@vue/compiler-sfc": "3.2.36",
