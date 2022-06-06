@@ -77,7 +77,7 @@
     "vite": "2.9.9",
     "vue": "3.2.36",
     "vue-jest": "5.0.0-alpha.10",
-    "vue-tsc": "0.36.0"
+    "vue-tsc": "0.36.1"
   },
   "license": "MIT"
 }
