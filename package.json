@@ -20,7 +20,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "demo:dev": "cd demo && vite",
     "demo:build": "cd demo && vite build",
-    "test": "jest"
+    "test": "vitest run"
   },
   "types": "src/index.ts",
   "module": "./dist/vue-visually-hidden.es.js",
@@ -62,21 +62,18 @@
   "devDependencies": {
     "@babel/core": "7.18.5",
     "@babel/preset-env": "7.18.2",
-    "@testing-library/jest-dom": "5.16.4",
     "@types/jest": "27.5.2",
     "@types/jest-axe": "3.5.3",
     "@vitejs/plugin-vue": "2.3.3",
     "@vue/compiler-sfc": "3.2.37",
     "@vue/test-utils": "2.0.1",
-    "babel-jest": "26.6.3",
-    "jest": "26.6.3",
     "jest-axe": "6.0.0",
-    "ts-jest": "26.5.6",
+    "jsdom": "19.0.0",
     "tslib": "2.4.0",
     "typescript": "4.7.3",
     "vite": "2.9.12",
+    "vitest": "0.15.1",
     "vue": "3.2.37",
-    "vue-jest": "5.0.0-alpha.10",
     "vue-tsc": "0.37.9"
   },
   "license": "MIT"
