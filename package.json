@@ -48,7 +48,7 @@
   "homepage": "https://github.com/yamanoku/vue-visually-hidden#readme",
   "peerDependencies": {
     "vue": "^2.0.0 || >=3.0.0",
-    "@vue/compiler-sfc": "3.2.38",
+    "@vue/compiler-sfc": "3.2.39",
     "@vue/composition-api": "^1.0.0-rc.1"
   },
   "peerDependenciesMeta": {
@@ -65,7 +65,7 @@
     "@types/jest": "29.0.0",
     "@types/jest-axe": "3.5.4",
     "@vitejs/plugin-vue": "3.1.0",
-    "@vue/compiler-sfc": "3.2.38",
+    "@vue/compiler-sfc": "3.2.39",
     "@vue/test-utils": "2.0.2",
     "jest-axe": "6.0.0",
     "jsdom": "20.0.0",
@@ -73,7 +73,7 @@
     "typescript": "4.8.2",
     "vite": "3.1.0",
     "vitest": "0.23.1",
-    "vue": "3.2.38",
+    "vue": "3.2.39",
     "vue-tsc": "0.40.10"
   },
   "license": "MIT"
