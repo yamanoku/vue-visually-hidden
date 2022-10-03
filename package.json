@@ -64,7 +64,7 @@
     "@babel/preset-env": "7.19.3",
     "@types/jest": "29.1.1",
     "@types/jest-axe": "3.5.5",
-    "@vitejs/plugin-vue": "3.1.0",
+    "@vitejs/plugin-vue": "3.1.2",
     "@vue/compiler-sfc": "3.2.40",
     "@vue/test-utils": "2.1.0",
     "jest-axe": "6.0.0",
