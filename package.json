@@ -69,7 +69,7 @@
     "@vue/test-utils": "2.2.1",
     "jest-axe": "6.0.0",
     "jsdom": "20.0.2",
-    "tslib": "2.4.0",
+    "tslib": "2.4.1",
     "typescript": "4.8.4",
     "vite": "3.2.1",
     "vitest": "0.24.3",
