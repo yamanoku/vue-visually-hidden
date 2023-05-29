@@ -68,7 +68,7 @@
     "@vue/compiler-sfc": "3.2.47",
     "@vue/test-utils": "2.3.2",
     "jest-axe": "7.0.1",
-    "jsdom": "21.1.1",
+    "jsdom": "21.1.2",
     "tslib": "2.5.0",
     "typescript": "5.0.4",
     "vite": "4.3.1",
