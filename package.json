@@ -60,8 +60,8 @@
     "vue-demi": "0.14.6"
   },
   "devDependencies": {
-    "@babel/core": "7.23.2",
-    "@babel/preset-env": "7.23.2",
+    "@babel/core": "7.23.3",
+    "@babel/preset-env": "7.23.3",
     "@types/jest": "29.5.8",
     "@types/jest-axe": "3.5.8",
     "@vitejs/plugin-vue": "4.4.1",
