@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.24.9",
-    "@babel/preset-env": "7.24.8",
+    "@babel/preset-env": "7.25.0",
     "@types/jest": "29.5.12",
     "@types/jest-axe": "3.5.9",
     "@vitejs/plugin-vue": "5.1.0",
