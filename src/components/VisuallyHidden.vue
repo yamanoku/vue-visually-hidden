@@ -4,25 +4,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
-  name: "VisuallyHidden",
-  props: {
-    isFocusable: {
-      type: Boolean,
-      default: false,
-    },
-  },
-  setup(props: { isFocusable: boolean }) {
-    const focusedClass = props.isFocusable
-      ? "visually-hidden-focusable"
-      : "visually-hidden";
-    return {
-      focusedClass
-    }
-  },
-});
+<script setup lang="ts">
+const { isFocusable = false } = defineProps<{ isFocusable?: boolean }>();
+const focusedClass = isFocusable ? "visually-hidden-focusable" : "visually-hidden";
 </script>
 
 <style scoped>
