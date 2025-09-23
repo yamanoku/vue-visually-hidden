@@ -1,10 +1,9 @@
 # vue-visually-hidden
 [![npm](https://img.shields.io/npm/v/vue-visually-hidden.svg)](https://www.npmjs.com/package/vue-visually-hidden)
 
-Vue.js visually hidden component
-(Vue 3 Only)
+Vue.js visually hidden component (Vue 3 Only)
 
-## What is visually-hidden component ?
+## What is `<VisuallyHidden>` component ?
 
 In the case of visual content, users using assistive technologies (e.g. screen readers) may not always know what the content means.
 
@@ -45,11 +44,17 @@ https://vue-visually-hidden.vercel.app/
 ## Installation
 
 ```bash
-npm install -D vue-visually-hidden
-```
+## npm
+$ npm install vue-visually-hidden
 
-```bash
-yarn add -D vue-visually-hidden
+## pnpm
+$ pnpm add vue-visually-hidden
+
+## yarn
+$ yarn add vue-visually-hidden
+
+## Bun
+$ bun add vue-visually-hidden
 ```
 
 ## Usage
@@ -69,18 +74,6 @@ yarn add -D vue-visually-hidden
 <script setup>
   import { VisuallyHidden } from 'vue-visually-hidden'
 </script>
-```
-
-### style setting (vue-cli)
-
-```js:main.js
-import 'vue-visually-hidden/dist/style.css'
-```
-
-### style setting (vite)
-
-```js:main.js
-import 'vue-visually-hidden/style'
 ```
 
 ## isFocusable
@@ -105,43 +98,5 @@ This can be used primarily for a feature called skip link.
 A skip link is link that allow keyboard users to quickly access the main content, and the links are visible upon focus.
 
 ### Reference
-- [Basics | Vue.js](https://v3.vuejs.org/guide/a11y-basics.html#skip-link)
+- [Accessibility | Vue.js](https://vuejs.org/guide/best-practices/accessibility.html#skip-link)
 - [vue-a11y/vue-skip-to](https://github.com/vue-a11y/vue-skip-to)
-
-## Resolve Setting
-
-If you get the error `Invalid VNode type: Symbol(Fragment) (symbol)`, try setting `resolve` in the configuration file as follows.
-
-See: https://github.com/vuejs/vue-next/issues/2064
-
-### vue.config.js
-
-```js:vue.config.js
-const path = require('path')
-
-module.exports = {
-  configureWebpack: {
-    resolve: {
-      symlinks: false,
-      alias: {
-        vue: path.resolve('./node_modules/vue')
-      }
-    }
-  }
-}
-```
-
-### vite.config.js
-
-```js:vite.config.js
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-
-export default defineConfig({
-  plugins: [vue()],
-  resolve: {
-    dedupe: ['vue']
-  }
-})
-```
-
