@@ -2,12 +2,13 @@ import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
+import { libInjectCss } from 'vite-plugin-lib-inject-css'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), libInjectCss()],
   test: {
     globals: true,
     environment: 'jsdom',
