@@ -1,3 +1,1 @@
-import VisuallyHidden from './plugins'
-
-export default VisuallyHidden
+export { default as VisuallyHidden } from './components/VisuallyHidden.vue'
