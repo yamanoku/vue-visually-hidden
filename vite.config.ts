@@ -1,23 +1,31 @@
-/// <reference types="vitest" />
-
-import { defineConfig } from 'vite'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import vue from '@vitejs/plugin-vue'
-import path from 'path'
+import { defineConfig } from 'vite'
+import { libInjectCss } from 'vite-plugin-lib-inject-css'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), libInjectCss()],
   test: {
     globals: true,
     environment: 'jsdom',
   },
-  build:
-    process.env.NODE_ENV === 'development'
-    ? {}
-    : {
-      lib: {
-        entry: path.resolve(__dirname, 'src/index.ts'),
-        name: 'vue-visually-hidden'
+  build: {
+    lib: {
+      entry: resolve(__dirname, 'src/index.ts'),
+      name: 'VisuallyHidden',
+      fileName: 'vue-visually-hidden',
+    },
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
       },
-    }
+    },
+  },
 })
