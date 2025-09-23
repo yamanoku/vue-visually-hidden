@@ -18,12 +18,12 @@ export default defineConfig({
       name: 'VisuallyHidden',
       fileName: 'vue-visually-hidden',
     },
-  },
-  rollupOptions: {
-    external: ['vue'],
-    output: {
-      globals: {
-        vue: 'Vue',
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
       },
     },
   },
