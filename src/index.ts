@@ -1,4 +1,4 @@
-import VisuallyHidden from './components/VisuallyHidden.vue'
+import VisuallyHidden from './plugins'
 
 export default VisuallyHidden
 
