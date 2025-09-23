@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue-demi";
+import { defineComponent } from "vue";
 export default defineComponent({
   name: "VisuallyHidden",
   props: {
@@ -14,7 +14,7 @@ export default defineComponent({
       default: false,
     },
   },
-  setup(props) {
+  setup(props: { isFocusable: boolean }) {
     const focusedClass = props.isFocusable
       ? "visually-hidden-focusable"
       : "visually-hidden";

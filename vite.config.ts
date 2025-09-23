@@ -19,14 +19,5 @@ export default defineConfig({
         entry: path.resolve(__dirname, 'src/index.ts'),
         name: 'vue-visually-hidden'
       },
-      rollupOptions: {
-        external: ['vue', 'vue-demi'],
-        output: {
-          globals: {
-            vue: 'Vue',
-            'vue-demi': 'vueDemi'
-          }
-        }
-      }
     }
 })
