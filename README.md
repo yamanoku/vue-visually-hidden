@@ -72,7 +72,7 @@ $ bun add vue-visually-hidden
 </template>
 
 <script setup>
-  import { VisuallyHidden } from 'vue-visually-hidden'
+import VisuallyHidden from 'vue-visually-hidden'
 </script>
 ```
 
