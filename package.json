@@ -23,7 +23,8 @@
     "test": "vitest run"
   },
   "types": "src/index.ts",
-  "module": "./dist/vue-visually-hidden.mjs",
+  "type": "module",
+  "module": "./dist/vue-visually-hidden.js",
   "main": "./dist/vue-visually-hidden.umd.js",
   "files": [
     "dist",
@@ -32,7 +33,7 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/vue-visually-hidden.mjs",
+      "import": "./dist/vue-visually-hidden.js",
       "require": "./dist/vue-visually-hidden.umd.js"
     },
     "./style.css": "./dist/vue-visually-hidden.css"
