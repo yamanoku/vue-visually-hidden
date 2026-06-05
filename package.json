@@ -53,7 +53,7 @@
     "@types/jest-axe": "3.5.9",
     "@vitejs/plugin-vue": "6.0.7",
     "@vue/compiler-sfc": "3.5.35",
-    "@vue/test-utils": "2.4.10",
+    "@vue/test-utils": "2.4.11",
     "jest-axe": "10.0.0",
     "jsdom": "29.1.1",
     "tslib": "2.8.1",
