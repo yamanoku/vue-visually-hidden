@@ -62,7 +62,7 @@
     "vite-plugin-lib-inject-css": "2.2.2",
     "vitest": "4.1.10",
     "vue": "3.5.40",
-    "vue-tsc": "3.3.8"
+    "vue-tsc": "3.3.9"
   },
   "license": "MIT"
 }
