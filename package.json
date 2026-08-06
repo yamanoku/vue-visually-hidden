@@ -52,7 +52,7 @@
     "@types/jest": "30.0.0",
     "@types/jest-axe": "3.5.9",
     "@vitejs/plugin-vue": "6.0.8",
-    "@vue/compiler-sfc": "3.5.40",
+    "@vue/compiler-sfc": "3.5.41",
     "@vue/test-utils": "2.4.11",
     "jest-axe": "11.0.0",
     "jsdom": "30.0.1",
@@ -61,7 +61,7 @@
     "vite": "8.2.0",
     "vite-plugin-lib-inject-css": "2.2.2",
     "vitest": "4.1.10",
-    "vue": "3.5.40",
+    "vue": "3.5.41",
     "vue-tsc": "3.3.9"
   },
   "license": "MIT"
